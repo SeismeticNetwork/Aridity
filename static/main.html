@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="./go.css">
+</head>
+<body>
+    <div class="luhcenter">
+       <img src="./base.png" alt="logo">
+       <h1>Aridity</h1>
+       <p id="Tip">The cool way</p>
+        <input type="text" id="inputField" onkeydown="handleKeyPress(event)" placeholder="Search The Web">
+        <div class="items" style="display: flex;" id="item">
+            <button onclick="processInput()">Open In Browser</button>
+            <button onclick="DR_OS()">Open Direct</button>
+            <button onclick="AB_OS()">Open in AB</button>
+        </div>
+
+        <div class="items" style="display: flex;" id="images">
+            <img src="./i/Controller.png" onclick="window.location.href= './dos.html'"">
+            <img src="./i/Apps.png" onclick="window.location.href= './uno.html'">
+            <img src="./i/settingswa.png" onclick="window.location.href= './Settings.html'">
+        </div>
+  <script src="js/sys.js"></script>
+    </div>
+    
+</body>
+</html>

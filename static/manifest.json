@@ -1,0 +1,17 @@
+{
+    "name": "Aridity Browser",
+    "short_name": "Arididty",
+    "description": "Aridity is the Browser that people needed Arididty has tons of support for sites and is efficient in speed!",
+    "icons": [  
+        {
+          "src": "/base.png",
+          "sizes": "512x512",
+          "type": "image/png"
+        }
+    ],
+    "lang": "en-US",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "black",
+    "theme_color": "black"
+  }

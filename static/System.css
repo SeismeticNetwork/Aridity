@@ -1,0 +1,110 @@
+body {
+    color: white;
+    background-color: rgb(10, 10, 10);
+    font-family: Arial, sans-serif;
+    margin: 0; /* Remove default body margin */
+    overflow: hidden; /* Hide body overflow to prevent double scrollbar */
+}
+
+.tabs {
+    display: flex;
+    flex-direction: row;
+    background-color: transparent;
+    color: #fff;
+    text-align: center;
+    height: 45px;
+    width: 100%;
+    overflow-x: auto; /* Allow horizontal scrolling for tabs */
+}
+
+.t-hold {
+    background-color:#303030ff;
+    color: #fff;
+    position: relative;
+    padding: 10px;
+}
+
+.tab {
+    margin-left: 5px;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+    background-color: #1c1c1cff;
+    height: 43px;
+    user-select: none;
+    line-height: 43px;
+    width: 250px;
+}
+
+.tab:hover {
+    background-color: rgb(41, 41, 41);
+}
+
+.add {
+    user-select: none;
+    margin-left: 5px;
+    border-radius: 50px;
+    background-color: #1c1c1cff;
+    height: 43px;
+    line-height: 43px;
+    width: 50px;
+    align-items: center;
+    justify-content: center;
+}
+
+.M_I {
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    background-color: #434343ff;
+    border: none;
+    height: 30px;
+    width: 95%; /* Adjusted width to 100% */
+    box-sizing: border-box; /* Include padding and border in width calculation */
+}
+
+.Main {
+    border: none;
+    width: 100%;
+    height: calc(100vh - 45px); /* Adjusted height to take into account the tabs height */
+    overflow-y: auto; /* Allow vertical scrolling for Main content */
+}
+
+.extra-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px; /* Adjust the right distance as needed */
+    height: 30px;
+    padding: 0 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #434343ff;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.menu {
+    border-radius: 15px;
+    flex-direction: column;
+    width: 15%;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    width: 400px;
+    height: 200px;
+    display: none;
+    background-color: #272727;
+}
+
+.menu button{
+    height: 30px;
+    margin-top: 4px;
+    width: 200px;
+    border: none;
+    border-radius: 15px;
+    background-color: #3b3a3a;
+    color: white;
+}
+
+.menu h1 {
+    text-align: center;
+}

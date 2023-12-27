@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="stylesheet" href="./System.css">
+    <title>Aridity</title>
+</head>
+<body>
+    
+    <div class="tabs" id="tabs">
+        <div class="add" id="add">+</div>
+    </div>
+    <div class="t-hold">
+        <input type="text" class="M_I" id="url-bar" placeholder="Search Google or Type URL" onkeydown="handleKeyPress(event)">
+        <button class="extra-button" id="option">Options</button>
+    </div>
+    <div class="menu" id="m_enu">
+        <button id="c"> Close Tab</button>
+        <button id="r"> Refresh Page</button>
+        <button id="s"> Settings</button>
+        <button id="h"> Home</button>
+        <button id="ab"> Open in AB</button>
+    </div>
+    <script src="./js/tab.js"></script>
+    <script src="./js/index.js"></script>
+    <script src="./js/search.js"></script>
+    <input id="TabID" type="text" style="display: none;">
+</body>
+</html>
